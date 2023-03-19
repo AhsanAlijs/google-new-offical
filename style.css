@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .flex-container > div a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    text-align: center;
+  }
+  .flex-container > div a:hover {
+    text-decoration: underline;
+  }
+  #ahsan{
+    margin-top: 7px;
+    background-color: #3e67ec; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 09px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+  #gmail{
+    margin-top: 16px;
+    font-size: 13px;
+  }
+  #image{
+    margin-top: 16px;
+    font-size: 13px;
+  }
+  #grid{
+    margin-top: 13px;
+  }
+  #grid:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2px;
+  }
+  #logo{
+    text-align: center;
+    margin-top:110px;
+  }
+.bar{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bar input{
+  height: 40px;
+  width: 500px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 16px;
+  background-image:url(./image/3.svg);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border:1px solid #dcdcdc;
+}
+.bar input:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar input:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:-65px;
+}
+.camra{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:-65px;
+}
+.buttons{
+  margin-top:30px;
+  text-align:center;
+}
+.button{
+  background-color: #f5f5f5;
+  border:none;
+  color:#707070;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color:#808080;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+
+div button a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+#new{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+
+#new div a{
+  padding: 5px;
+  font-size: 13px;
+  text-decoration: none;
+}
+#new div a:hover{
+  text-decoration: underline;
+}
+#new .font{
+
+  font-size: 13px;
+}
+#footer{
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 96%;
+  color: white;
+  margin-right: 110px;
+}
+#footer a{
+  text-decoration: none;
+  padding: 15px;
+  color: #70757a;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+#footer a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#footer .pakistan{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+  width: 100%;
+}
+.right a{
+  margin-top: -35px;
+  display: inline-block;
+  float: right;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+#footer .s{
+  margin-left: 120px;
+}
+.pakistan{
+  margin-top: -106px;
+}
